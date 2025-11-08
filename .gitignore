@@ -1,0 +1,19 @@
+# Node.js
+/node_modules
+npm-debug.log
+yarn-error.log
+*.log
+
+# Office Add-in build output
+/dist
+
+# Office Add-in local certificates
+*.cer
+
+# Editor/OS-specific
+.vscode
+.idea
+*.suo
+*.user
+.DS_Store
+Thumbs.db
