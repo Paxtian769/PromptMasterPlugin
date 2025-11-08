@@ -1,0 +1,23 @@
+<!-- Copyright (c) Brian Dawley and Shumaker & Sieffert, P.A. All rights reserved. -->
+<!-- This file shows how to design a first-run page that provides a welcome screen to the user about the features of the add-in. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prompt Copier</title>
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+    <link rel="stylesheet" href="taskpane.css" type="text/css" />
+</head>
+<body class="ms-font-m ms-Fabric">
+    <main id="app-body" class="ms-welcome__main">
+        <h2 class="ms-font-xl">PromptMaster</h2>
+        <button id="scan-button" class="ms-Button">Scan Document for Prompts</button>
+        <div id="button-container">
+            </div>
+        <div id="status-message"></div>
+    </main>
+</body>
+</html>
