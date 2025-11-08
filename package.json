@@ -1,7 +1,6 @@
 {
   "name": "prompt-master-plugin",
   "version": "0.0.1",
-  "homepage": "https://Paxtian769.github.io/PromptMasterPlugin",
   "repository": {
     "type": "git",
     "url": "https://github.com/Paxtian769/PromptMasterPlugin.git"
@@ -15,7 +14,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "npm run build && gh-pages --dist dist --dest .",
     "dev-server": "webpack serve --mode development",
     "lint": "office-addin-lint check",
     "lint:fix": "office-addin-lint fix",
