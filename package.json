@@ -1,10 +1,10 @@
 {
   "name": "PromptMasterPlugin",
   "version": "0.0.1",
-  "homepage": "https://https://github.com/Paxtian769/PromptMasterPlugin",
+  "homepage": "https://Paxtian769.github.io/PromptMasterPlugin",
   "repository": {
     "type": "git",
-    "url": "https://https://github.com/Paxtian769/PromptMasterPlugin.git"
+    "url": "https://github.com/Paxtian769/PromptMasterPlugin.git"
   },
   "license": "MIT",
   "config": {
